@@ -1,0 +1,15 @@
+O projeto Code Editor, criado por mim , é uma ferramenta versátil projetada para facilitar tarefas de codificação com facilidade e eficiência. Este editor inovador permite aos usuários inserir e manipular código HTML, CSS e JavaScript em seções separadas, proporcionando uma experiência de codificação contínua.
+ 
+A função principal deste Code Editor é permitir que os usuários escrevam, editem e executem trechos de código em tempo real. Com a capacidade de alternar entre diferentes tipos de código, os usuários podem trabalhar na estrutura HTML, no estilo CSS e na funcionalidade JavaScript, tudo em um só lugar. O editor apresenta integração com o CodeMirror para realce de sintaxe, numeração de linhas e indentação inteligente, aprimorando a experiência de codificação.
+ 
+Uma das características marcantes deste projeto é a capacidade de carregar códigos salvos de arquivos, tornando conveniente para os usuários revisitar e continuar trabalhando em seus projetos. Além disso, o Code Editor permite que os usuários salvem seu código como um arquivo ZIP para download, preservando seu trabalho para referência futura ou compartilhamento.
+ 
+Para garantir a integridade do projeto e proteger o trabalho do criador, os usuários são encorajados a não copiar ou plagiar o código. Em vez disso, é apreciado se os usuários fornecerem crédito ou reconhecimento se acharem o projeto Code Editor útil em seus empreendimentos de codificação.
+ 
+Em resumo, o projeto Code Editor é uma ferramenta amigável e eficiente que capacita os programadores a criar, experimentar e colaborar em projetos de desenvolvimento web com facilidade.
+
+crição=======================
+Version: 1.0                  
+Date: Sex 31/05/24          
+created by: @suprem3_king  
+==========================

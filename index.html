@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Code Editor</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.css">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/htmlmixed/htmlmixed.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/css/css.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/javascript/javascript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+<body id="codeEditor" data-theme="default">
+<h1>Code Editor</h1>
+<button onclick="toggleCode('html')">HTML</button>
+<div id="htmlCode" style="display: none;">
+  <!-- Textarea para entrada de código HTML -->
+  <textarea id="html" style="width: 100%; height: 200px;"></textarea>
+  <button onclick="clearCode('html')">Limpar HTML</button>
+</div>
+<button onclick="toggleCode('css')">CSS</button>
+<div id="cssCode" style="display: none;">
+  <!-- Textarea para entrada de código CSS -->
+  <textarea id="css" style="width: 100%; height: 100px;"></textarea>
+  <button onclick="clearCode('css')">Limpar CSS</button>
+</div>
+<button onclick="toggleCode('js')">JavaScript</button>
+<div id="jsCode" style="display: none;">
+  <!-- Textarea para entrada de código JavaScript -->
+  <textarea id="js" style="width: 100%; height: 100px;"></textarea>
+  <button onclick="clearCode('js')">Limpar JavaScript</button>
+</div>
+<button onclick="runCode()">Run Code</button>
+<div id="output"></div>
+<button onclick="saveCode()">Save Code</button>
+<!-- Adicione um botão estilizado para carregar códigos salvos -->
+<label for="fileInput" class="fileInputButton">Load Saved Code</label>
+<input type="file" id="fileInput" accept=".html,.css,.js" onchange="loadSavedCode(event)">
+<!-- Arquivo de script para funcionalidade adicional -->
+<script src="script.js"></script>
+</body>
+</html>

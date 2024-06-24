@@ -1,0 +1,76 @@
+/* Estilo para o corpo da página */
+body {
+ background-color: #000; /* Cor de fundo preto */
+ color: #00ff00; /* Cor do texto verde claro */
+ font-family: 'Courier New', Courier, monospace; /* Fonte do texto */
+ padding: 20px; /* Espaçamento interno */
+ margin: 0; /* Margem zero */
+}
+
+/* Estilo para o cabeçalho h1 */
+h1 {
+ color: #009A59; /* Cor do texto verde claro */
+}
+
+/* Estilo para os botões */
+button {
+ background-color: #3E3E47; /* Cor de Fundo dos botões */
+ color: #00ff00; /* Cor do texto verde claro */
+ border: none; /* Sem borda */
+ padding: 10px 20px; /* Espaçamento interno */
+ margin: 5px; /* Margem */
+ cursor: pointer; /* Cursor do mouse */
+}
+
+/* Estilo para os botões quando hover */
+button:hover {
+ background-color: #3E3E47; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para as áreas de texto */
+textarea {
+ background-color: #373234;
+ color: #00ff00; /* Cor de texto verde claro */
+ border: 1px solid #00ff00; /* Borda */
+ padding: 10px; /* Espaçamento interno */
+ margin: 5px 0; /* Margem */
+ font-family: 'Courier New', Courier, monospace; /* Fonte do texto */
+}
+
+/* Estilo adicional para o botão de importar arquivos */
+.fileInputButton {
+ display: inline-block;
+ padding: 8px 18px;
+ background-color: #4CAF50; /* Cor de fundo verde */
+ color: white; /* Cor do texto branco */
+ border: 2px solid #4CAF50; /* Borda sólida */
+ border-radius: 5px; /* Cantos arredondados */
+ cursor: pointer;
+ transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transição suave */
+}
+
+.fileInputButton:hover {
+ background-color: #45a049; /* Cor de fundo destacada ao passar o mouse */
+ border-color: #45a049; /* Cor da borda destacada ao passar o mouse */
+ color: white; /* Cor do texto branco ao passar o mouse */
+}
+
+/* Estilo para o input de arquivo (oculto) */
+#fileInput {
+ display: none;
+}
+
+
+/* Estilo para a saída de código */
+#output {
+ margin-top: 20px; /* Margem superior */
+ border: 1px solid #00ff00; /* Borda */
+ padding: 10px; /* Espaçamento interno */
+}
+
+/* Estilo para o iframe */
+iframe {
+ width: 100%; /* Largura total */
+ height: 300px; /* Altura de 300px */
+ border: none; /* Sem borda */
+}
