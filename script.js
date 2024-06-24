@@ -1,3 +1,4 @@
+// Datei erstellt von: @TadanoKun33
 var htmlEditor = CodeMirror.fromTextArea(document.getElementById("html"), {
   lineNumbers: true,
   mode: "htmlmixed",
