@@ -8,7 +8,7 @@ Para garantir a integridade do projeto e proteger o trabalho do criador, os usu�
  
 Em resumo, o projeto Code Editor é uma ferramenta amigável e eficiente que capacita os programadores a criar, experimentar e colaborar em projetos de desenvolvimento web com facilidade.
 
-crição=======================
+==========================
 Version: 1.0                  
 Date: Sex 31/05/24          
 created by: @666ghost_king999
